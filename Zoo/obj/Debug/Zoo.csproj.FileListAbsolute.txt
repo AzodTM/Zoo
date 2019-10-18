@@ -1,0 +1,9 @@
+C:\Users\a.s.fedotov\source\repos\Zoo\Zoo\bin\Debug\Zoo.exe.config
+C:\Users\a.s.fedotov\source\repos\Zoo\Zoo\bin\Debug\Zoo.exe
+C:\Users\a.s.fedotov\source\repos\Zoo\Zoo\bin\Debug\Zoo.pdb
+C:\Users\a.s.fedotov\source\repos\Zoo\Zoo\obj\Debug\Zoo.csprojAssemblyReference.cache
+C:\Users\a.s.fedotov\source\repos\Zoo\Zoo\obj\Debug\Zoo.StartForm.resources
+C:\Users\a.s.fedotov\source\repos\Zoo\Zoo\obj\Debug\Zoo.Properties.Resources.resources
+C:\Users\a.s.fedotov\source\repos\Zoo\Zoo\obj\Debug\Zoo.csproj.GenerateResource.cache
+C:\Users\a.s.fedotov\source\repos\Zoo\Zoo\obj\Debug\Zoo.exe
+C:\Users\a.s.fedotov\source\repos\Zoo\Zoo\obj\Debug\Zoo.pdb
