@@ -14,7 +14,7 @@ namespace Zoo.Animals
         public int[] coordinate;
         public bool scream;
 
-        public string Scream()
+        public string Scream(Animal animal)
         {
             string screamText;
             if (scream)
@@ -34,7 +34,7 @@ namespace Zoo.Animals
         /// <param name="vector">Направление (по нампаду)</param>
         /// <param name="distance">Дальность перемещения</param>
         /// <param name="animal">Животное</param>
-        public void Move(int vector, int distance)
+        public void Move(int vector, int distance, Animal animal)
         {
             if (vector == 1)
             {
@@ -80,7 +80,7 @@ namespace Zoo.Animals
         /// </summary>
         /// <param name="animal"></param>
         /// <returns></returns>
-        public string LookAround()
+        public string LookAround(Animal animal)
         {
             string lookText = "я что то вижу";
             return lookText;

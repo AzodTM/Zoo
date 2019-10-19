@@ -14,7 +14,8 @@ namespace Zoo
         [STAThread]
         static void Main()
         {
-            Presenter Present = new Presenter();
+            Animals.AnimalActionImpl Animal = new Animals.AnimalActionImpl();
+            Presenter Present = new Presenter(Animal);
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new StartForm(ref Present));
