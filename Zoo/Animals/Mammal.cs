@@ -8,14 +8,17 @@ namespace Zoo.Animals
 {
     class Mammal : Animal   
     {
-        public Mammal()
+        int volumeMilkStok;
+        public Mammal(int xCoordinate, int yCoortinate, int size,int volumeMilkStok)
         {   
-                legs = 2;
-                eyes = 2;
-                size = 200;
-                coordinate = new int[2] { 3, 4 };
-                scream = true;
-            
+            legs = 2;
+            eyes = 2;
+            size = this.size;
+            coordinate = new int[2] { xCoordinate, yCoortinate };
+            scream = true;
+            volumeMilkStok = this.volumeMilkStok;
+
+
         }
     }
 }

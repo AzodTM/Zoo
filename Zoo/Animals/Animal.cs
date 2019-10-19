@@ -6,13 +6,13 @@ using System.Threading.Tasks;
 
 namespace Zoo.Animals   
 {
-    abstract class Animal
+    public abstract class Animal
     {
-        protected int legs;
-        protected int eyes;
-        protected int size;
-        protected int[] coordinate;
-        protected bool scream;            
+        public int legs;
+        public int eyes;
+        public int size;
+        public int[] coordinate;
+        public bool scream;            
    
     }
 }

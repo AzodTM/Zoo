@@ -8,15 +8,18 @@ namespace Zoo.Animals
 {
     class Arthropod : Animal
     {
-        public Arthropod()
+        int countSkinSHedding;
+
+        public Arthropod(int xCoordinate,int yCoortinate,int size,int countSkinSHedding)
         {
             legs = 2;
             eyes = 8;
-            size = 10;
-            coordinate = new int[2] { 1, 1 };
+            size = this.size;
+            coordinate = new int[2] { xCoordinate, yCoortinate };
             scream = false;
-            
+            countSkinSHedding = this.countSkinSHedding;
         }
+
     }
 }
     

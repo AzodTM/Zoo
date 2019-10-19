@@ -28,7 +28,7 @@ namespace Zoo
 
         private void buttonCreateArthropod_Click(object sender, EventArgs e)
         {
-            
+            Animals.Animal spider = new Animals.Arthropod();
         }
     }
 }

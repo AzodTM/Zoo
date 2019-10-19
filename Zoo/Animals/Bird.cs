@@ -8,13 +8,17 @@ namespace Zoo.Animals
 {
     class Bird : Animal
     {
-        public Bird()
+        int quantityWings;
+        int rangeOfFlyght;
+        public Bird(int xCoordinate, int yCoortinate, int size, int quantityWings,int rangeOfFlyght)
         {
             legs = 2;
             eyes = 2;
-            size = 30;
-            coordinate = new int[2] { 5, 1 };
+            size = this.size;
+            coordinate = new int[2] { xCoordinate, yCoortinate };
             scream = true;
+            quantityWings = this.quantityWings;
+            rangeOfFlyght = this.rangeOfFlyght;
         }
     }
 }

@@ -8,13 +8,19 @@ namespace Zoo.Animals
 {
     class Fish : Animal
     {
-        public Fish()
+        int sizeGils;
+        int sizeLungs;
+
+        
+        public Fish(int xCoordinate, int yCoortinate, int size, int sizeGils, int sizeLungs)
         {
             legs = 2;
             eyes = 2;
-            size = 40;
-            coordinate = new int[2] { 5, 4 };
+            size = this.size;
+            coordinate = new int[2] { xCoordinate, yCoortinate };
             scream = false;
+            sizeGils = this.sizeGils;
+            sizeLungs = this.sizeLungs;
         }
     }
 }
