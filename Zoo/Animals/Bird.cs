@@ -20,5 +20,6 @@ namespace Zoo.Animals
             quantityWings = this.quantityWings;
             rangeOfFlyght = this.rangeOfFlyght;
         }
+       
     }
 }

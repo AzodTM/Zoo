@@ -14,9 +14,10 @@ namespace Zoo
         [STAThread]
         static void Main()
         {
+            Presenter Present = new Presenter();
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new StartForm());
+            Application.Run(new StartForm(ref Present));
         }
     }
 }

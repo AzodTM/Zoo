@@ -20,6 +20,7 @@ namespace Zoo.Animals
             countSkinSHedding = this.countSkinSHedding;
         }
 
+
     }
 }
     
